@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="CompanyName">Udacity</string>
+    <string name="CompanyAddress">2465 Latham St, Mountain View, CA 94040</string>
+    <string name="CompanyPhone">+1 650–555–5555</string>
+    <string name="CompanyURL">www.udacity.com</string>
+
+</resources>
