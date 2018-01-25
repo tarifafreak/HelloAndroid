@@ -8,54 +8,54 @@
 
     <ImageView
         android:id="@+id/CompanyLogo"
-        android:src="@drawable/androiduniversity"
-        android:scaleType="centerCrop"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androiduniversity"
         tools:ignore="ContentDescription"/>
 
     <TextView
         android:id="@+id/CompanyName"
-        android:text="@string/CompanyName"
-        android:textColor="#02B3E4"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/CompanyName"
         android:textAlignment="center"
-        android:padding="5dp"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#02B3E4"/>
 
     <TextView
         android:id="@+id/CompanyAddress"
-        android:text="@string/CompanyAddress"
-        android:textColor="#02B3E4"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:autoLink="map"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autoLink="map"
+        android:padding="5dp"
+        android:text="@string/CompanyAddress"
         android:textAlignment="center"
-        android:padding="5dp"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#02B3E4"/>
 
     <TextView
         android:id="@+id/CompanyPhone"
-        android:text="@string/CompanyPhone"
-        android:textColor="#02B3E4"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:autoLink="phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:padding="5dp"
+        android:text="@string/CompanyPhone"
         android:textAlignment="center"
-        android:padding="5dp"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorLink="#02B3E4"/>
 
     <TextView
         android:id="@+id/CompanyURL"
-        android:text="@string/CompanyURL"
-        android:textColor="#02B3E4"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:autoLink="web"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:padding="5dp"
+        android:text="@string/CompanyURL"
         android:textAlignment="center"
-        android:padding="5dp"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorLink="#02B3E4"/>
 
 </LinearLayout>
